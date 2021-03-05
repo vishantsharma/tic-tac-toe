@@ -6,6 +6,6 @@ import { Provider } from 'react-redux';
 
 test('renders Board text', () => {
   render(<Provider store={configureStore()}><Board /></Provider>);
-  const boardText = screen.getByText(/Board/i);
+  const boardText = screen.getByText(/Tic Tac Toe/i);
   expect(boardText).toBeInTheDocument();
 });
