@@ -1,4 +1,4 @@
-# Syft Tic-Tac-Toe
+# Tic-Tac-Toe
 
 ## Tasks
 
